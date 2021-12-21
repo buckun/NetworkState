@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/connectionStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connection Status:"
+        android:textColor="#E91E63"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#03A9F4"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="92dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/connectionTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connection Type:"
+        android:textColor="#E91E63"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <TextView
+        android:id="@+id/connectionType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#03A9F4"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="92dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/speedTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speed:"
+        android:textColor="#E91E63"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="135dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#03A9F4"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="135dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/strengthTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="strength:"
+        android:textColor="#E91E63"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="135dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/strength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#03A9F4"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="135dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/checkButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Status" />
+
+</LinearLayout>
